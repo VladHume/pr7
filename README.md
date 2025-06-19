@@ -30,8 +30,14 @@ gcc -Wall -o task2 task2.c
 Мета: Створити спрощену версію `grep`.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task3.c)
+```sh
+gcc -Wall -o task3 task3.c
+./task3 popen task1.c
+```
+
 Результат: Програма шукає слово у вказаному файлі та виводить рядки, що його містять.
 
+![image](https://github.com/user-attachments/assets/654bdd1b-83ae-49bc-8ab0-1372a3d6c979)
 
 ## Завдання 4
 Мета: Спрощена версія `more`.
