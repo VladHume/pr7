@@ -3,7 +3,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc < 2) {
-        fprintf(stderr, "Usage: %s файл [файл2 ...]\n", argv[0]);
+        fprintf(stderr, "Usage: %s file [file2 ...]\n", argv[0]);
         return EXIT_FAILURE;
     }
 
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
         while (fgets(buf, sizeof(buf), f)) {
             fputs(buf, stdout);
             if (++count == 20) {
-                printf("-- Більше? (натисніть Enter)");
+                printf("-- More? (press Enter)");
                 getchar();
                 count = 0;
             }
