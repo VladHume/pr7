@@ -9,6 +9,6 @@ int main(void) {
     gettimeofday(&t1, NULL);
     long ms = (t1.tv_sec - t0.tv_sec) * 1000 +
               (t1.tv_usec - t0.tv_usec) / 1000;
-    printf("Час: %ld мс\n", ms);
+    printf("Time: %ld мс\n", ms);
     return 0;
 }
