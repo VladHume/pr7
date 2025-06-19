@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        fprintf(stderr, "Usage: %s слово файл\n", argv[0]);
+        fprintf(stderr, "Usage: %s file word\n", argv[0]);
         return EXIT_FAILURE;
     }
 
