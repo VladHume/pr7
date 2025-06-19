@@ -5,7 +5,7 @@ int main(void) {
     FILE *fp;
     char buf[512];
 
-    if (!(fp = popen("rwho | more", "r"))) {
+    if (!(fp = popen("ls -l | more", "r"))) {
         perror("popen");
         return EXIT_FAILURE;
     }
