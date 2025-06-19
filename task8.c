@@ -14,12 +14,12 @@ int main(void) {
     while ((e = readdir(d))) {
         if (strcmp(e->d_name, ".") == 0 || strcmp(e->d_name, "..") == 0)
             continue;
-        printf("Видалити файл %s? (y/n/a — all): ", e->d_name);
+        printf("Delete file %s? (y/n/a — all): ", e->d_name);
         if (!fgets(ans, sizeof(ans), stdin)) break;
         if (ans[0] == 'a') break;
         if (ans[0] == 'y') {
             if (unlink(e->d_name) == 0)
-                printf("Видалено\n");
+                printf("Deleted\n");
             else
                 perror("unlink");
         }
