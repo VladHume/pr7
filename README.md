@@ -43,8 +43,16 @@ gcc -Wall -o task3 task3.c
 Мета: Спрощена версія `more`.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task4.c)
+```sh
+gcc -Wall -o task4 task4.c
+./task4 task7.c
+```
+
 Результат: Вивід файлів з паузою кожні 20 рядків.
 
+![image](https://github.com/user-attachments/assets/10053919-d78c-4a02-b7d7-cb7f0e2e4309)
+
+![image](https://github.com/user-attachments/assets/faa16ba9-1bf7-4e63-9a7a-96c5c2e59c64)
 
 ## Завдання 5
 Мета: Рекурсивний обхід каталогів.
