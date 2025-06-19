@@ -17,8 +17,14 @@ gcc -Wall -o task1 task1.c
 Мета: Імітувати роботу `ls -l` без виклику команди через системні засоби.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task2.c)
+```sh
+gcc -Wall -o task2 task2.c
+./task2
+```
+
 Результат: Виводяться файли, їхні права доступу, розмір, дата та власник.
 
+![image](https://github.com/user-attachments/assets/f0939ab4-a6af-4265-ae73-78c596d7fe54)
 
 ## Завдання 3
 Мета: Створити спрощену версію `grep`.
