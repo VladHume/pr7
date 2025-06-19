@@ -3,11 +3,13 @@
 ## Завдання 1
 Мета: Передати вивід команди `rwho` через `popen()` до команди `more`.
 [Код](https://github.com/VladHume/pr7/blob/main/task1.c)
-
 ```sh
 gcc -Wall -o task1 task1.c
+./task1
 ```
 Результат: Програма запускає команду і передає її результат на екран через `more`.
+
+![image](https://github.com/user-attachments/assets/54d1b221-f9f9-467f-b0d5-d1b7834b79d7)
 
 
 ## Завдання 2
