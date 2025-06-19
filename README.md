@@ -58,8 +58,14 @@ gcc -Wall -o task4 task4.c
 Мета: Рекурсивний обхід каталогів.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task5.c)
+```sh
+gcc -Wall -o task5 task5.c
+./task5
+```
+
 Результат: Перелік усіх файлів та підкаталогів.
 
+![image](https://github.com/user-attachments/assets/fd810f5d-964f-46d3-b60d-0c5d98841ed4)
 
 ## Завдання 6
 Мета: Вивести лише підкаталоги у алфавітному порядку.
