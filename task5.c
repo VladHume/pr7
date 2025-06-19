@@ -3,6 +3,7 @@
 #include <dirent.h>
 #include <sys/stat.h>
 #include <string.h>
+#include <limits.h>
 
 void walk(const char *path) {
     DIR *d = opendir(path);
