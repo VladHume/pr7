@@ -71,38 +71,76 @@ gcc -Wall -o task5 task5.c
 Мета: Вивести лише підкаталоги у алфавітному порядку.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task6.c)
+```sh
+gcc -Wall -o task6 task6.c
+./task6
+```
+
 Результат: Відсортований список підкаталогів.
 
+![image](https://github.com/user-attachments/assets/8852ccc0-eafb-4bcb-8490-ab017264a8b1)
 
 ## Завдання 7
 Мета: Надати читацькі права іншим користувачам на C-файли за згодою користувача.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task7.c)
+```sh
+gcc -Wall -o task7 task7.c
+./task7
+```
+
 Результат: Програма запитує дозвіл на зміну прав та за потреби змінює права доступу.
+
+![image](https://github.com/user-attachments/assets/1fd8cc29-1c73-4470-b19b-9654cb84ba93)
 
 ## Завдання 8
 Мета: Інтерактивне видалення файлів.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task8.c)
+```sh
+gcc -Wall -o task8 task8.c
+./task8
+```
+
 Результат: Користувач може підтвердити або скасувати видалення файлів.
 
+![image](https://github.com/user-attachments/assets/47e8a862-8cfb-43ee-b0ac-9a2b9d5f5eca)
 
 ## Завдання 9
 Мета: Виміряти час виконання коду у мілісекундах.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task9.c)
+```sh
+gcc -Wall -o task9 task9.c
+./task9
+```
+
 Результат: Застосовано `gettimeofday()`, отримано час виконання у мс.
 
+![image](https://github.com/user-attachments/assets/6d168360-5beb-4e05-8371-178a0fbec337)
 
 ## Завдання 10
 Мета: Створити генератор рандомних чисел з плаваючою комою заданих діапазонів.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task10.c)
+```sh
+gcc -Wall -o task10 task10.c
+./task10 9.3
+```
+
 Результат: Створено генератор чисел у діапазоні [0.0, 1.0] та [0.0, n].
 
+![image](https://github.com/user-attachments/assets/e29fade1-7879-4302-8e02-cf88e7a28f0c)
 
 ## Завдання 11
 Мета: Імітувати роботу черги задач з паузою, скасуванням та відновленням.
 
 [Код](https://github.com/VladHume/pr7/blob/main/task11.c)
+```sh
+gcc -Wall -o task11 task11.c
+./task11
+```
+
 Результат: Створено інтерактивний інтерфейс для керування станами задач без використання потоків та сигналів.
+
+![image](https://github.com/user-attachments/assets/67b7df11-b5af-4193-a726-2b57acdd149a)
