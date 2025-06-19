@@ -16,11 +16,11 @@ int main(void) {
         size_t len = strlen(e->d_name);
         if (len > 2 && strcmp(e->d_name + len - 2, ".c") == 0) {
             stat(e->d_name, &st);
-            printf("Файл %s, поточні права: %o. Додати r іншим? (y/n): ", 
+            printf("File %s, current rights: %o. Add r to other? (y/n): ", 
                    e->d_name, st.st_mode & 0777);
             if (fgets(ans, sizeof(ans), stdin) && ans[0]=='y') {
                 chmod(e->d_name, st.st_mode | S_IROTH);
-                printf("Права змінено.\n");
+                printf("Tights changed.\n");
             }
         }
     }
